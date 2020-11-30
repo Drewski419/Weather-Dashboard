@@ -17,10 +17,7 @@ SO THAT I can plan a trip accordingly
 ![Weather Dashboard](https://user-images.githubusercontent.com/68498591/100591691-f6b7c580-32aa-11eb-9646-af3c44b14a1c.PNG)
 
 
-
-## Link to Deployed Application
-
-<a href="https://github.com/Drewski419/Password-Generator"></a>
+<img src="Assets/Weather-Dashboard.png" alt="Dashboard">
 
 
 ## Summary
@@ -50,3 +47,8 @@ It also includes a search history so that users can access their past history se
 ## API used
 
 * momentjs
+
+
+## Link to Deployed Application
+
+<a href="https://github.com/Drewski419/Password-Generator"></a>
