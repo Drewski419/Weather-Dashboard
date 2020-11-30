@@ -12,6 +12,15 @@ SO THAT I can plan a trip accordingly
 
 ```
 
+# Screenshot of Deployed Application
+
+<img src="Assets/Weather Dashboard.png" alt="Dashboard">
+
+
+# Link to Deployed Application
+
+<src href="https://github.com/Drewski419/Password-Generator">
+
 
 # Summary
 
