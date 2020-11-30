@@ -14,9 +14,8 @@ SO THAT I can plan a trip accordingly
 
 ## Screenshot of Deployed Application
 
-<img src="Assets/Weather-Dashboard.png" alt="Dashboard">
+![Weather Dashboard](https://user-images.githubusercontent.com/68498591/100591691-f6b7c580-32aa-11eb-9646-af3c44b14a1c.PNG)
 
-![Dashboard](Assets/Weather-Dashboard.png);
 
 
 ## Link to Deployed Application
