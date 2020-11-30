@@ -76,7 +76,7 @@ var queryURLUV = "https://api.openweathermap.org/data/2.5/uvi?&appid=fd7b2e9a6b0
         url: queryURLforcast,
         method: 'GET'
     }).then(function (response) {
-        // Storing an array of results in the results variable
+
         var results = response.list;
         //empty 5day div--------
         $("#5day").empty();
@@ -130,11 +130,10 @@ var queryURLUV = "https://api.openweathermap.org/data/2.5/uvi?&appid=fd7b2e9a6b0
 pageLoad();
 
 
-//----------------------------------------Event handler for user city search-----------------------//
+//-------------Event handlers for city search and search history--------------//
 $("#select-city").on("click", function (event) {
-    // Preventing the button from trying to submit the form......
     event.preventDefault();
-    // Storing the city name........
+
     var cityInput = $("#city-input").val().trim();
 
     //save search term to local storage.....
@@ -148,7 +147,6 @@ $("#select-city").on("click", function (event) {
 });
 
 
-//Event delegation...
 $("#searchhistory").on('click', '.btn', function(event) {
     event.preventDefault();
         console.log($(this).text());
@@ -157,7 +155,7 @@ $("#searchhistory").on('click', '.btn', function(event) {
     
 
 
-//---------------------------Call stored items on page load-------------------------------------//
+//--------------------Call stored items on page load----------------------//
 function pageLoad () {
     var lastSearch = JSON.parse(localStorage.getItem("cityName"));
     var searchDiv = $("<button class='btn border text-muted mt-1 shadow-sm bg-white rounded' style='width: 12rem;'>").text(lastSearch);
