@@ -16,6 +16,8 @@ SO THAT I can plan a trip accordingly
 
 <img src="Assets/Weather-Dashboard.png" alt="Dashboard">
 
+![Dashboard](Assets/Weather-Dashboard.png);
+
 
 ## Link to Deployed Application
 
