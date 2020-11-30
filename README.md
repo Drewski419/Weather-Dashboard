@@ -17,12 +17,6 @@ SO THAT I can plan a trip accordingly
 ![Weather Dashboard](https://user-images.githubusercontent.com/68498591/100591691-f6b7c580-32aa-11eb-9646-af3c44b14a1c.PNG)
 
 
-
-## Link to Deployed Application
-
-<a href="https://github.com/Drewski419/Password-Generator"></a>
-
-
 ## Summary
 
 This applicaiton is a weather dashboard with search functionality to find current weather conditions and the future weather outlook for multiple cities. This application utilizes the AJAX to hook into OpenWeather API to retrieve data in JSON format. Using dynamically updated HTML and CSS powered by jQuery we can show the user the follwoing information: Displayed the following under current weather conditions:
@@ -50,3 +44,9 @@ It also includes a search history so that users can access their past history se
 ## API used
 
 * momentjs
+
+
+## Link to Deployed Application
+
+[Deployable Link Here](https://github.com/Drewski419/Password-Generator)
+
