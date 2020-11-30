@@ -148,6 +148,15 @@ $("#select-city").on("click", function (event) {
 });
 
 
+//Event delegation...
+$("#searchhistory").on('click', '.btn', function(event) {
+    event.preventDefault();
+        console.log($(this).text());
+        searchCity($(this).text());
+    });
+    
+
+
 //---------------------------Call stored items on page load-------------------------------------//
 function pageLoad () {
     var lastSearch = JSON.parse(localStorage.getItem("cityName"));
@@ -156,12 +165,5 @@ function pageLoad () {
     psearch.append(searchDiv)
     $("#searchhistory").prepend(psearch);
 }
-
-//Event delegation...
-$("#searchhistory").on('click', '.btn', function(event) {
-event.preventDefault();
-    console.log($(this).text());
-    searchCity($(this).text());
-});
 
 
